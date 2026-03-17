@@ -16,7 +16,11 @@ This repo documents the architecture and technical decisions behind the project.
   <p>Click to watch the demo</p>
 </div>
 
-## How It Worked
+## System Design Overview
+
+![System Architecture](diagrams/system_architecture.png)
+
+### How It Worked
 
 ```
 React Native App (Expo)
@@ -24,12 +28,14 @@ React Native App (Expo)
 ▼
 REST API (Django)
 │
-├── Content extraction — pull locations from social media posts
-├── Location enrichment — coordinates, ratings, categories via Google Places
-├── Itinerary builder — organise destinations into trip plans
-├── Collaboration — shared trips between users
+├── User service — auth & profiles
+├── Itinerary service — trips & destinations
+├── Collaboration service — shared trips between users
+├── Extraction pipeline — scraper, parser, ranker, and resolver
+│   └── LLM fallback via Groq API
+│
 ▼
-PostgreSQL
+PostgreSQL (Supabase) & Google Places API
 ```
 
 ## Tech Stack

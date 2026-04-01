@@ -17,9 +17,9 @@ This repo documents the architecture and technical decisions behind the project.
 </div>
 
 ## System Design Overview
-
-![System Architecture](diagrams/system_architecture.png)
-
+<p align="center">
+  <img src="diagrams/system_architecture.png" alt="System Architecture" />
+</p>
 ### How It Worked
 
 ```

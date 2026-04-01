@@ -6,6 +6,8 @@ The pipeline transforms unstructured social media travel content into structured
 
 Rather than relying entirely on an LLM, the system uses a staged approach that combines heuristic parsing with model fallback for ambiguous cases. This was designed to improve reliability, reduce cost, and keep the output more controllable.
 
+![Content extraction pipeline](../diagrams/content-pipeline.png)
+
 ---
 
 ## Goals

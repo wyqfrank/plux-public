@@ -2,7 +2,7 @@
 
 An iOS app that turned social media travel posts into trip itineraries. You'd share a TikTok or Instagram post, and Plux would extract the locations, enrich them with real data (Google Places), and let you build a shareable itinerary from it.
 
-Built as a startup idea — validated with a 200+ user survey and demoed a working TestFlight MVP to 50 users.
+Built as a startup idea, validated with a 200+ user survey and demoed a working TestFlight MVP to 50 users.
 Shelving it to work on another problem I'm more interested in.
 
 This repo documents the architecture and technical decisions behind the project.
@@ -17,8 +17,9 @@ This repo documents the architecture and technical decisions behind the project.
 </div>
 
 ## System Design Overview
-
-![System Architecture](diagrams/system_architecture.png)
+<p align="center">
+  <img src="diagrams/system_architecture.png" alt="System Architecture" />
+</p>
 
 ### How It Worked
 

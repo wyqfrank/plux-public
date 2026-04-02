@@ -79,7 +79,7 @@ plux-public/
 ├── docs/
 │   ├── content-pipeline.md       # Content extraction pipeline deep-dive
 │   ├── system-architecture.md    # System design overview
-│   └── lessons-learned.md        # What I'd do differently
+│   └── reflections.md            # Reflections & lessons learned
 ├── screenshots/                  # Product UI
 └── README.md
 ```

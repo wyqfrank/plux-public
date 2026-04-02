@@ -39,31 +39,59 @@ REST API (Django)
 PostgreSQL (Supabase) & Google Places API
 ```
 
+## Content Extraction Pipeline
+
+The core technical challenge was turning noisy social media posts into structured, usable location data. Rather than relying entirely on an LLM, we built a staged pipeline that combines heuristic parsing with model fallback for ambiguous cases.
+
+<p align="center">
+  <img src="diagrams/content-pipeline.png" alt="Content Extraction Pipeline" />
+</p>
+
+**Pipeline stages:**
+
+| Stage | What it does |
+|---|---|
+| **Scraping** | Collects raw content — captions, hashtags, embedded location text, post metadata |
+| **Parsing** | Converts raw text into candidate travel entities; normalises noisy strings |
+| **Ranking** | Scores candidates using heuristic signals (explicit mentions, repeated references, travel context) with LLM fallback for ambiguous cases |
+| **Resolution** | Maps high-confidence candidates to real-world places via fuzzy matching, deduplication, and external API lookups |
+| **Enrichment** | Adds structured metadata from Google Places — coordinates, categories, ratings, business info |
+
+The hybrid heuristic + LLM approach was chosen because heuristics are cheap and predictable for common patterns, while the LLM handles edge cases without needing to run on every request — keeping cost low and output controllable.
+
+→ [Full pipeline documentation](docs/content-pipeline.md)
+
 ## Tech Stack
 
 - **Frontend:** React Native / Expo
 - **Backend:** Django, REST APIs
-- **Database:** PostgreSQL
-- **APIs:** Google Places, Groq
+- **Database:** PostgreSQL (Supabase)
+- **APIs:** Google Places, Groq (LLM)
+- **Pipeline:** Heuristic parsing + LLM fallback
 
 ## Project Structure
 
 ```
 plux-public/
-├── diagrams/                    # Architecture diagrams
+├── diagrams/
+│   ├── system_architecture.png   # System architecture diagram
+│   └── content-pipeline.png      # Content extraction pipeline diagram
 ├── docs/
-│   ├── ai-pipeline.md           # How the data pipeline works
-│   ├── system-architecture.md   # System design overview
-│   └── lessons-learned.md       # What I'd do differently
-├── screenshots/                 # Product UI
+│   ├── content-pipeline.md       # Content extraction pipeline deep-dive
+│   ├── system-architecture.md    # System design overview
+│   └── lessons-learned.md        # What I'd do differently
+├── screenshots/                  # Product UI
 └── README.md
 ```
 
 ## What I Took Away From It
 
-- Preprocessing was more effective than prompt tuning for this use case — social media posts follow predictable patterns, so simple heuristics handled most cases, with the LLM used for the remaining ambiguity (also reducing inference cost)
-- Multi-step pipelines over single model calls — unstructured content needed cleaning and normalisation before it was useful for model inference
-- Consumer mobile apps are heavily distribution-driven — product quality alone wasn’t enough without growth loops
+- **Preprocessing > prompt tuning** — Social media posts follow predictable patterns, so simple heuristics handled most cases, with the LLM used for the remaining ambiguity (also reducing inference cost)
+- **Multi-step pipelines over single model calls** — Unstructured content needed cleaning and normalisation before it was useful for model inference
+- **Hybrid beats all-in** — The heuristic + LLM approach gave better cost/reliability tradeoffs than either approach alone
+- **Consumer mobile apps are distribution-driven** — Product quality alone wasn't enough without growth loops
+
 
 ## Code
+
 The source code is private. This repo is focused on the design and architecture docs.

@@ -93,7 +93,7 @@ plux-public/
 
 ## Founding Team
 
-Plux was built as an early-stage startup by a small founding team. As founder, I led product direction and delivered the majority of the engineering work, including backend architecture, content extraction pipeline design, and full-stack development.
+Plux was built as an early-stage startup by a small founding team.
 
 - **Frank Wu** — Founder; full-stack, architecture, pipeline  ([LinkedIn](https://www.linkedin.com/in/frank-wu-bba168227/))
 - **Pragun Banga** — full-stack ([LinkedIn](https://www.linkedin.com/in/pragun-banga-7818122ba/))

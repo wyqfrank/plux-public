@@ -101,7 +101,7 @@ Plux was built as an early-stage startup by a small founding team. As founder, I
 - **Angus Chou** — frontend ([LinkedIn](https://www.linkedin.com/in/angus-chou-bb02032aa/))
 - **Joshua Ryu** — design, product, and early growth ([LinkedIn](https://www.linkedin.com/in/joshuasryu/))
 
-**Instagram** [@get.plux](https://www.instagram.com/get.plux/)
+**Instagram:** [@get.plux](https://www.instagram.com/get.plux/)
 
 ## Code
 

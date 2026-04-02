@@ -97,7 +97,7 @@ Plux was built as an early-stage startup by a small founding team. As founder, I
 
 - **Frank Wu** — Founder; full-stack, architecture, pipeline  ([LinkedIn](https://www.linkedin.com/in/frank-wu-bba168227/))
 - **Pragun Banga** — full-stack ([LinkedIn](https://www.linkedin.com/in/pragun-banga-7818122ba/))
-- **Henry Bu** — backend ([LinkedIn](https://www.linkedin.com/in/henrybu1/))
+- **Henry Bui** — backend ([LinkedIn](https://www.linkedin.com/in/henrybu1/))
 - **Angus Chou** — frontend ([LinkedIn](https://www.linkedin.com/in/angus-chou-bb02032aa/))
 - **Joshua Ryu** — design, product, and early growth ([LinkedIn](https://www.linkedin.com/in/joshuasryu/))
 

@@ -95,10 +95,10 @@ plux-public/
 
 Plux was built as an early-stage startup by a small founding team. As founder, I led product direction and delivered the majority of the engineering work, including backend architecture, content extraction pipeline design, and full-stack development.
 
-- **Frank Wu** — Founder; backend architecture, content pipeline, API integrations, and full-stack development ([LinkedIn](https://www.linkedin.com/in/frank-wu-bba168227/))
-- **Pragun Banga** — full-stack development ([LinkedIn](https://www.linkedin.com/in/pragun-banga-7818122ba/))
-- **Henry Bu** — backend development ([LinkedIn](https://www.linkedin.com/in/henrybu1/))
-- **Angus Chou** — frontend development ([LinkedIn](https://www.linkedin.com/in/angus-chou-bb02032aa/))
+- **Frank Wu** — Founder; full-stack, architecture, pipeline  ([LinkedIn](https://www.linkedin.com/in/frank-wu-bba168227/))
+- **Pragun Banga** — full-stack ([LinkedIn](https://www.linkedin.com/in/pragun-banga-7818122ba/))
+- **Henry Bu** — backend ([LinkedIn](https://www.linkedin.com/in/henrybu1/))
+- **Angus Chou** — frontend ([LinkedIn](https://www.linkedin.com/in/angus-chou-bb02032aa/))
 - **Joshua Ryu** — design, product, and early growth ([LinkedIn](https://www.linkedin.com/in/joshuasryu/))
 
 **Instagram** [@get.plux](https://www.instagram.com/get.plux/)

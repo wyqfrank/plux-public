@@ -3,7 +3,7 @@
 An iOS app that turned social media travel posts into trip itineraries. You'd share a TikTok or Instagram post, and Plux would extract the locations, enrich them with real data (Google Places), and let you build a shareable itinerary from it.
 
 Built as a startup idea, validated with a 200+ user survey and demoed a working TestFlight MVP to 50 users.
-Shelving it to work on another problem I'm more interested in.
+Shelving it to work on problems I'm more interested in.
 
 This repo documents the architecture and technical decisions behind the project.
 
@@ -91,6 +91,17 @@ plux-public/
 - **Hybrid beats all-in** — The heuristic + LLM approach gave better cost/reliability tradeoffs than either approach alone
 - **Consumer mobile apps are distribution-driven** — Product quality alone wasn't enough without growth loops
 
+## Founding Team
+
+Plux was built as an early-stage startup by a small founding team. As founder, I led product direction and delivered the majority of the engineering work, including backend architecture, content extraction pipeline design, and full-stack development.
+
+- **Frank Wu** — Founder; backend architecture, content pipeline, API integrations, and full-stack development ([LinkedIn](https://www.linkedin.com/in/frank-wu-bba168227/))
+- **Pragun Banga** — full-stack development ([LinkedIn](https://www.linkedin.com/in/pragun-banga-7818122ba/))
+- **Henry Bu** — backend development ([LinkedIn](https://www.linkedin.com/in/henrybu1/))
+- **Angus Chou** — frontend development ([LinkedIn](https://www.linkedin.com/in/angus-chou-bb02032aa/))
+- **Joshua Ryu** — design, product, and early growth ([LinkedIn](https://www.linkedin.com/in/joshuasryu/))
+
+**Instagram** [@get.plux](https://www.instagram.com/get.plux/)
 
 ## Code
 

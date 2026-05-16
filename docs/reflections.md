@@ -1,0 +1,7 @@
+The biggest lesson from Plux was that the bottleneck was not really technical execution, but distribution. In a market where building and shipping products has become easier, the moat is no longer purely technical. The harder part is getting people to care, try it, and keep coming back.
+
+We did try the social media side of things and built a decent demo run of ~60 users, but we did not get enough early traction or retention to justify pushing it further. Part of that was probably team alignment as well. We were much stronger on the technical and product side than on B2C growth, creator dynamics, and distribution. That is not a criticism of the team, more just a reflection that consumer apps require a different kind of instinct and operating rhythm.
+
+What stood out, although it is not a unique insight, was how hard it is to change user behaviour. Even when a product has better functionality on paper, most people stick to the handful of apps they already know and use. Reaching product-market fit in consumer software feels especially difficult because attention is scarce, retention is low, and distribution often matters as much as, if not more than, the product itself.
+
+Overall, it was a fun and valuable experiment. I really enjoyed working with the team, learnt a lot from building it, and came away with a much clearer understanding of what I would look for next time. On to the next.

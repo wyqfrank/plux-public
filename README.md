@@ -89,7 +89,7 @@ plux-public/
 - **Most of the problem wasn’t “AI”** — social media content follows predictable patterns, so simple heuristics handled the majority of cases, with LLMs only needed for ambiguity (and kept costs down)
 - **Structure before intelligence** — unstructured inputs had to be cleaned and normalised before any model-based processing was useful
 - **Pipelines > single calls** — breaking the problem into stages produced more reliable and controllable outputs than relying on a single model call
-- **Distribution was the real bottleneck** — product quality alone wasn’t enough without a way to reach users
+- *Startup reflections & lessons learned** — [reflections.md](.docs/reflections.md)
 
 ## Founding Team
 
